@@ -1,0 +1,23 @@
+#crystals{
+display:flex;
+justify-content: space-around;
+align-items: center;
+margin:10px;
+}
+.crystals{
+border: 1px solid green;
+height: 200px;
+width: 200px;
+border-radious: 4px;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+transition:box-shadow 2s;
+}
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+    
+    cursor: pointer;
+    transition:box-shadow 2s;
+}
+img{
+    widows: 50px;
+}
